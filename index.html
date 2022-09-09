@@ -4,15 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Spotify Clone</title>
     <!-- don't forget to link your styles -->
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <nav class="flex justify-between px-10 py-6">
+      <img src="/images/spotify-logo.png" alt="" class="w-1/6" />
+
+      <ul class="flex items-center justify-around w-1/4">
+        <li>Premium</li>
+        <li>Discover</li>
+        <li>Help</li>
+        <li>Download</li>
+      </ul>
+    </nav>
+
+    <header
+      class="bg-[url('./images/landing.jpg')] flex justify-center items-center min-h-screen bg-cover bg-center bg-no-repeat text-white flex-col"
+    >
+      <h1 class="text-6xl font-bold mb-4">Music for everyone.</h1>
+      <p class="font-extralight text-2xl">
+        Spotify is now free on mobile, tablet and computer.
+      </p>
+      <p class="font-extralight text-2xl">
+        Listen to the right music, wherever you are.
+      </p>
+    </header>
+
+    <section class="flex flex-col justify-center items-center m-6">
+      
+        <h2 class="py-8 font-bold text-4xl tracking-wide">What's on Spotify?</h2>
+        
+        <div class="flex text-center w-full m-6 items-baseline">
+          <div class="w-1/3 flex flex-col justify-center items-center">
+            
+              <img src="/images/music-icon.png" alt="" class="w-1/4 mb-6" />
+              <h3 class="text-emerald-500 text-2xl font-bold mb-4">
+                Milion of sounds
+              </h3>
+              <p class="text-gray-900/50 font-light w-1/2 text-center">
+                There are millions of songs on Spotify
+              </p>
+            
+          </div>
+          <div class="w-1/3 flex flex-col justify-center items-center">
+            
+              <img src="/images/high-quality-icon.png" alt="" class="w-1/4 mb-6" />
+              <h3 class="text-emerald-500 text-2xl font-bold mb-4">HD Music</h3>
+              <p class="text-gray-900/50 font-light w-1/2 text-center">
+                Listen to music as if you were listening live
+              </p>
+            
+          </div>
+          <div class="w-1/3 flex flex-col justify-center items-center">
+            
+              <img src="/images/devices-icon.png" alt="" class="w-1/4 mb-6" />
+              <h3 class="text-emerald-500 text-2xl font-bold mb-4">
+                Stream Everywhere
+              </h3>
+              <p class="text-gray-900/50 font-light w-1/2 text-center">
+                Stream music on your smartphone, tablet or computer
+              </p>
+            
+          </div>
+    </section>
+    <section class="bg-emerald-500 text-white mx-6 flex items-center pb-12">
+      <div class="grid grid-cols-4 gap-3 px-16">
+         <div class="col-span-2 row-start-1 row-end-2 pt-12">
+          
+            <h2 class="text-4xl underline underline-offset-[16px] pb-16">It’s as yeezy as Kanye West.</h2>
+            <div class="grid grid-cols-2">
+            <h3 class="col-span-2 pb-8 text-2xl font-bold">Search</h3>
+            <p class="col-span-2 font-light">Know what you want to listen to?</p>
+            <p class="col-span-2 font-light">Just search and hit play.</p>
+            <h3 class="col-span-2 pt-8 pb-8 text-2xl font-bold">Browse</h3>
+            <p class="col-span-2 font-light pr-28">
+              Check out the latest charts, brand new releases and great playlists
+              for right now.
+            </p>
+            <h3 class="col-span-2 pt-8 pb-8 text-2xl font-bold">Discover</h3>
+              <p class="col-span-2 font-light pr-28">
+                Enjoy new music every Monday with your own personal playlist. Or sit
+                back and enjoy Radio.
+              </p>
+            </div>
+            </div>
+        
+      <div class="flex justify-start self-center pt-24">
+        <img class="w-1/3" src="/images/spotify-icon-white.png" alt="">
+      </div>
+      <div class="pt-16">
+        <img src="/images/spotify-app.jpg" alt="" />
+      </div>  
+      </div>
+    </section>
   </body>
 </html>
+
+ 
+
+
+  
